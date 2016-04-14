@@ -1,5 +1,4 @@
 function pairElement(str){
-    
     // the object containing pairing keys and values
     var pairing = {
     	"A":"T", 
