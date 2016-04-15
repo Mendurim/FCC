@@ -1,12 +1,12 @@
-function fearNotLetter(str) {
-    var alphabet = ("abcdefghijklmnopqrstuvwxyz");
-    var first = alphabet.indexOf(str[0]);
-    var strIndex = 0;
-    var missing;
+   function fearNotLetter(str) {
+     var alphabet = ("abcdefghijklmnopqrstuvwxyz");
+     var first = alphabet.indexOf(str[0]);
+     var strPosition = 0;
+     var missing;
 
-    for (var i = first ; i < str.length ; i++) {
-        if (str[strIndex] === alphabet[i]) {
-            strIndex++;
+      for (var i = first ; i < str.length ; i++) {
+          if (str[strPosition] === alphabet[i]) {
+             strPosition++;
         } else {
             missing = alphabet[i];
         }
