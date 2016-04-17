@@ -7,9 +7,12 @@ function pairElement(str){
     //split the pairedArray and map it by using the object pairing
     
     pairedArray = str.split("").map(function(key){
-    	var newArr = []; 
-    	newArr.push(key, pairing[key]); 
-    	return newArr; 
+    	
+        var newArray = []; 
+    	
+        newArray.push(key, pairing[key]); 
+    	
+        return newArray; 
     }); 
 	return pairedArray; 
 }
