@@ -5,8 +5,7 @@ function translatePigLatin(str) {
   
    return str + "ay"; 
   
-  }else
-  {
+  }else{
     var con = str.search(vowelCheck); 
     return str.slice(con) + str.slice(0, con) + "ay"; 
   }
