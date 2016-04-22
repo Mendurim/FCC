@@ -1,7 +1,7 @@
 function booWho(bool){
-	var x = true; 
-	var y = false; 
-	if(bool === x || bool === y){
+	var trueBool = true; 
+	var falseBool = false; 
+	if(bool === trueBool ||bool === falseBool){
 		return true; 
 	}else{
 		return false; 
